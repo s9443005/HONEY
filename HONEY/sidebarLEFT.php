@@ -14,7 +14,13 @@
                     <i class="fs-2 bi-people"></i> <span class="ms-1 d-none d-sm-inline">輪播</span> </a>
                 <ul class="collapse nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                     <li class="w-100">
-                        <a href="carouselB.php" class="nav-link px-0"> <span class="d-none d-sm-inline">輪播</span>A</a>
+                        <a href="carouselA.php" class="nav-link px-0"> <span class="d-none d-sm-inline">輪播</span>A</a>
+                    </li>
+                    <li class="w-100">
+                        <a href="carouselB.php" class="nav-link px-0"> <span class="d-none d-sm-inline">輪播</span>B</a>
+                    </li>
+                    <li class="w-100">
+                        <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">輪播</span>C</a>
                     </li>
                     <li class="w-100">
                         <a href="setupCarouselDB.php" class="nav-link px-0"> <span class="d-none d-sm-inline">建立輪播DB</span></a>
