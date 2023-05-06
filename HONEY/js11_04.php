@@ -87,7 +87,11 @@
         }
     </style>
 
-
+        <?php 
+            $F1 = "pic_01.jpg";
+            $F2 = "pic_02.jpg";
+            $F3 = "pic_03.jpg";
+            ?>
     <script>
         // 宣告index用來代表目前是第幾筆記錄，0表示第一筆
         // 共用的變數宣告在所有function之外

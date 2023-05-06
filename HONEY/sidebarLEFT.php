@@ -20,7 +20,7 @@
                         <a href="carouselB.php" class="nav-link px-0"> <span class="d-none d-sm-inline">輪播</span>B</a>
                     </li>
                     <li class="w-100">
-                        <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">輪播</span>C</a>
+                        <a href="js11_04.php" class="nav-link px-0"> <span class="d-none d-sm-inline">輪播</span>C</a>
                     </li>
                     <li class="w-100">
                         <a href="setupCarouselDB.php" class="nav-link px-0"> <span class="d-none d-sm-inline">建立輪播DB</span></a>
