@@ -16,12 +16,12 @@
             <div class="col py-3">
                 <h1>圖片輪播</h1><hr>
                 <h5 class='m-1 p-1'>筆記</h5>
-                <div class='m-1 p-1'>將圖檔名存在DB，結合最基的的BT5.2官方carousel範例</div>
+                <div class='m-1 p-1'>將圖檔名存在DB，結合最基本的BT5.2官方carousel範例</div>
                     <?php include "connectDB.php"; 
                     $sql = "select * from carousel;";
 
                     /* 以下2行輪播DIV */
-                    echo '<div id="carouselExampleSlidesOnly" class="carousel slide col-4" data-bs-ride="carousel"><!--輪播BEGIN-->';
+                    echo '<div id="carouselExampleSlidesOnly" class="carousel slide col-6" data-bs-ride="carousel"><!--輪播BEGIN-->';
                     echo '<div class="carousel-inner"><!--輪播內部BEGIN-->';
                     
                     /* 以下2行輪播項目 */

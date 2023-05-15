@@ -6,12 +6,12 @@
         <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
             <li class="nav-item">
                 <a href="index.php" class="nav-link align-middle px-0">
-                    <i class="fs-2 bi-graph-up"></i> <span class="ms-1 d-none d-sm-inline">實驗</span>
+                    <i class="fs-2 bi-magic"></i> <span class="ms-1 d-none d-sm-inline">實驗</span>
                 </a>
             </li>
             <li>
                 <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                    <i class="fs-2 bi-people"></i> <span class="ms-1 d-none d-sm-inline">輪播</span> </a>
+                    <i class="fs-2 bi-fast-forward-btn-fill"></i> <span class="ms-1 d-none d-sm-inline">輪播</span> </a>
                 <ul class="collapse nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                     <li class="w-100">
                         <a href="carouselA.php" class="nav-link px-0"> <span class="d-none d-sm-inline">輪播</span>A</a>
@@ -20,7 +20,10 @@
                         <a href="carouselB.php" class="nav-link px-0"> <span class="d-none d-sm-inline">輪播</span>B</a>
                     </li>
                     <li class="w-100">
-                        <a href="js11_04.php" class="nav-link px-0"> <span class="d-none d-sm-inline">輪播</span>C</a>
+                        <a href="carouselC.php" class="nav-link px-0"> <span class="d-none d-sm-inline">輪播</span>C</a>
+                    </li>
+                    <li class="w-100">
+                        <a href="js11_04.php" class="nav-link px-0"> <span class="d-none d-sm-inline">輪播</span>By原始</a>
                     </li>
                     <li class="w-100">
                         <a href="setupCarouselDB.php" class="nav-link px-0"> <span class="d-none d-sm-inline">建立輪播DB</span></a>
@@ -30,7 +33,7 @@
 
             <li>
                 <a href="#submenu99" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                    <i class="fs-2 bi-pin"></i> <span class="ms-1 d-none d-sm-inline">保留</span> </a>
+                    <i class="fs-2 bi-wrench-adjustable-circle"></i> <span class="ms-1 d-none d-sm-inline">保留</span> </a>
                 <ul class="collapse nav flex-column ms-1" id="submenu99" data-bs-parent="#menu">
                     <li class="w-100">
                         <a href="Z.html" class="nav-link px-0"> <span class="d-none d-sm-inline">Z.HTML</span></a>
@@ -44,8 +47,8 @@
         <hr>
         <div class="dropdown pb-4">
             <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://github.com/s9443005.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
-                <span class="d-none d-sm-inline mx-1">JOSEPH CW SHIH</span>
+                <img src="https://github.com/sophia25.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                <span class="d-none d-sm-inline mx-1">SOPHIA CHANG</span>
             </a>
             <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
                 <li><a class="dropdown-item" href="#">New project...</a></li>

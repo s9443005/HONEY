@@ -16,7 +16,7 @@
             <div class="col py-3">
                 <h1>圖片輪播</h1><hr>
                 <h5 class='m-1 p-1'>筆記</h5>
-                <div class='m-1 p-1'>將圖檔名存在DB，結合最基的的BT5.2官方carousel範例</div>
+                <div class='m-1 p-1'>將圖檔名存在DB，結合最基本的BT5.2官方carousel範例</div>
                     <?php include "connectDB.php"; 
                     $sql = "select * from carousel;";
 
@@ -32,11 +32,11 @@
                     /* 以下2行輪播項目 */
                     $result = $conn->query($sql);
                     if ($result->num_rows > 0){
-                        $ifFirstImage = TRUE;
+                        $ifFirstImage = true;
                         while ($row = $result->fetch_assoc()){
-                            if ($ifFirstImage == TRUE){
+                            if ($ifFirstImage == true){
                                 echo '<div class="carousel-item active"><!--輪播ITEM_BEGIN-->';
-                                $ifFirstImage = FALSE;
+                                $ifFirstImage = false;
                             } else {
                                 echo '<div class="carousel-item">';
                             }

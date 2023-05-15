@@ -1,7 +1,7 @@
 <?php
   $servername = "localhost";
   $username = "root";
-  $password = "12345678";
+  $password = "";
   $dbname = "sophia";
 
   $conn = new mysqli($servername, $username, $password);
@@ -25,6 +25,7 @@
   $sql = "CREATE TABLE carousel (
     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     imgFileName VARCHAR(255) NOT NULL,
+    imgInfo VARCHAR(255) NOT NULL,
     imgDescription VARCHAR(255) NOT NULL
     )";
   if ($conn->query($sql) === TRUE) {
@@ -33,9 +34,9 @@
     die("<div>建立TABLE失敗：" . $conn->error . "</div>");
   }
 
-  $sql = "INSERT INTO carousel (imgFileName, imgDescription) VALUES ('pic_01.jpg', '位在台中第一中學附近的商圈，滿滿的美食也吸引外地遊客慕名而來。');";
-  $sql .= "INSERT INTO carousel (imgFileName, imgDescription) VALUES ('pic_02.jpg', '逢甲夜市鄰近逢甲大學，蘊含著許多人潮排隊美食。');";
-  $sql .= "INSERT INTO carousel (imgFileName, imgDescription) VALUES ('pic_03.jpg', '比起逢甲夜市與一中商圈聲勢也是越來越浩大。');";
+  $sql  = "INSERT INTO carousel (imgFileName, imgInfo, imgDescription) VALUES ('pic_01.jpg', '一中商圈(xx張淑娟)', '位在台中第一中學附近的商圈，滿滿的美食也吸引外地遊客慕名而來。');";
+  $sql .= "INSERT INTO carousel (imgFileName, imgInfo, imgDescription) VALUES ('pic_02.jpg', '逢甲夜市', '逢甲夜市鄰近逢甲大學，蘊含著許多人潮排隊美食。');";
+  $sql .= "INSERT INTO carousel (imgFileName, imgInfo, imgDescription) VALUES ('pic_03.jpg', '旱溪夜市', '比起逢甲夜市與一中商圈聲勢也是越來越浩大。');";
   if ($conn->multi_query($sql) === TRUE) {
     echo "<p>New records created successfully</p>";
   } else {
