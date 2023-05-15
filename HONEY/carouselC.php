@@ -98,7 +98,7 @@
                     $info[] = $row['imgInfo'];
                 }
             }
-            echo json_encode($img, JSON_NUMERIC_CHECK);
+            //echo json_encode($img, JSON_NUMERIC_CHECK);
             include "disconnectDB.php";
         ?><!--加入PHP code，讀取圖片檔名、圖片描述、圖片資訊END-->
 
